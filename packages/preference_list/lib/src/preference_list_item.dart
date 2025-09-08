@@ -65,7 +65,7 @@ class PreferenceListItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      color: Theme.of(context).colorScheme.onSurface,
+      color: Theme.of(context).colorScheme.surface,
       child: InkWell(
         splashColor: Colors.transparent,
         onTap: disabled! ? null : _onTap,
